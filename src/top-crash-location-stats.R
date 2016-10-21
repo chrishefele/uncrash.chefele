@@ -55,15 +55,17 @@ colnames(agg.stats)[1] <- "Crash.Location"   # replaces "Group.1"
 rownames(agg.stats) <- agg.stats$Crash.Location
 agg.stats[,"Crash.Location"] <- NULL
 
+cat("\n-----MEAN STATS PER LOCATION---------\n")
 print(agg.stats[top.locations[1:30],])
 
 # calculate discrete distributions by location for the category variables
 
+cat("\n-----CATEGORY COUNTS PER LOCATION---------\n")
 for(category.var in category.vars) {
     tbl <- table(crashes$Crash.Location, crashes[,category.var])
     category.stats <- as.data.frame.matrix(tbl)
     category.stats <- category.stats[top.locations,]
-    print(category.var)
+    cat("\n----------", category.var, "----------\n")
     print(head(category.stats, 30))
 }
 

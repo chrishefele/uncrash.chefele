@@ -1,0 +1,264 @@
+
+-----MEAN STATS PER LOCATION---------
+                                 Driver.Age Total.Injured Total.Killed
+US 1                               39.33984   0.334839770 0.0008216927
+ROUTE 571                          39.88765   0.338597024 0.0006073489
+NJ 27                              43.08047   0.194225722 0.0004374453
+ROUTE 535                          36.23765   0.356407323 0.0045766590
+RT 1                               38.07267   0.358899297 0.0000000000
+ROUTE 533                          40.17787   0.297846890 0.0000000000
+ALEXANDER RD                       42.30710   0.332236842 0.0019736842
+MERCER COUNTY 638                  39.33187   0.284403670 0.0007057163
+US 206                             41.64822   0.395571956 0.0000000000
+ROUTE 526                          38.77653   0.450155763 0.0000000000
+ALEXANDER ROAD                     39.51266   0.350515464 0.0000000000
+CR 571                             37.97397   0.362869198 0.0063291139
+NASSAU PARK BLVD                   41.76334   0.207048458 0.0000000000
+UNIVERSITY PLACE                   41.63818   0.187203791 0.0000000000
+RT 27                              40.88182   0.199519231 0.0000000000
+WITHERSPOON ST                     42.49485   0.168000000 0.0000000000
+MERCER COUNTY 615                  37.00971   0.215625000 0.0000000000
+NASSAU PARK RETAIL CENTER          40.89247   0.071428571 0.0000000000
+CR 533                             37.51273   0.346428571 0.0107142857
+240 NASSAU PARK BLVD               48.17935   0.014492754 0.0000000000
+PRINCETON JUNCTION TRAIN STATION   41.34109   0.044444444 0.0000000000
+101 NASSAU PARK BLVD               42.49375   0.022727273 0.0000000000
+MERCER COUNTY 629                  41.38800   0.221789883 0.0000000000
+NJ 64                              38.45968   0.305882353 0.0039215686
+301 NASSAU PARK BLVD               42.72414   0.053941909 0.0000000000
+MERCER COUNTY 604                  43.56637   0.539473684 0.0000000000
+CR 535                             35.72821   0.368686869 0.0000000000
+500 NASSAU PARK BLVD               39.71963   0.005154639 0.0000000000
+ROUTE 583                          43.76744   0.293193717 0.0000000000
+MEADOW ROAD                        37.28415   0.338709677 0.0000000000
+                                 Total.Vehicles.Involve Crash.Hour
+US 1                                           2.224836   13.36763
+ROUTE 571                                      2.083510   13.26875
+NJ 27                                          2.040245   13.34924
+ROUTE 535                                      2.016590   13.43798
+RT 1                                           2.257611   13.88277
+ROUTE 533                                      2.083732   13.56323
+ALEXANDER RD                                   2.042105   12.83287
+MERCER COUNTY 638                              1.993649   13.28331
+US 206                                         2.115867   12.88314
+ROUTE 526                                      1.995327   12.66352
+ALEXANDER ROAD                                 2.092784   13.57983
+CR 571                                         2.101266   13.74895
+NASSAU PARK BLVD                               2.070485   14.81193
+UNIVERSITY PLACE                               1.947867   13.14183
+RT 27                                          2.057692   13.54126
+WITHERSPOON ST                                 2.018667   13.03836
+MERCER COUNTY 615                              1.765625   12.02597
+NASSAU PARK RETAIL CENTER                      1.980519   15.16883
+CR 533                                         2.150000   14.07500
+240 NASSAU PARK BLVD                           1.985507   13.75000
+PRINCETON JUNCTION TRAIN STATION               2.029630   13.86923
+101 NASSAU PARK BLVD                           1.984848   14.48649
+MERCER COUNTY 629                              2.112840   12.57317
+NJ 64                                          1.956863   14.40161
+301 NASSAU PARK BLVD                           1.995851   13.95781
+MERCER COUNTY 604                              2.157895   11.92593
+CR 535                                         1.979798   13.60606
+500 NASSAU PARK BLVD                           1.989691   14.31250
+ROUTE 583                                      1.963351   12.04969
+MEADOW ROAD                                    1.817204   15.10383
+
+-----CATEGORY COUNTS PER LOCATION---------
+
+---------- Driver.Sex ----------
+                                        F    M V4   
+US 1                             254 3978 5504  0  0
+ROUTE 571                         53 1507 1733  0  0
+NJ 27                            412  828 1046  0  0
+ROUTE 535                        140  767  841  0  0
+RT 1                              38  632 1038  0  0
+ROUTE 533                         36  885  751  0  0
+ALEXANDER RD                      74  687  759  0  0
+MERCER COUNTY 638                 40  717  660  0  0
+US 206                            33  612  710  0  0
+ROUTE 526                         19  298  325  0  0
+ALEXANDER ROAD                     9  226  250  0  0
+CR 571                             8  220  246  0  0
+NASSAU PARK BLVD                  18  239  197  0  0
+UNIVERSITY PLACE                  66  137  219  0  0
+RT 27                             83  154  179  0  0
+WITHERSPOON ST                    82  134  159  0  0
+MERCER COUNTY 615                 10  149  161  0  0
+NASSAU PARK RETAIL CENTER        120   96   92  0  0
+CR 533                             4  148  128  0  0
+240 NASSAU PARK BLVD              90  117   69  0  0
+PRINCETON JUNCTION TRAIN STATION 142   44   84  0  0
+101 NASSAU PARK BLVD             102   94   68  0  0
+MERCER COUNTY 629                  5  117  135  0  0
+NJ 64                              6   97  152  0  0
+301 NASSAU PARK BLVD              93   80   68  0  0
+MERCER COUNTY 604                  1  128   99  0  0
+CR 535                             1   88  109  0  0
+500 NASSAU PARK BLVD              85   78   31  0  0
+ROUTE 583                         16   91   84  0  0
+MEADOW ROAD                        4   82  100  0  0
+
+---------- Alcohol.Involved ----------
+                                    N   Y V3
+US 1                             9581 155  0
+ROUTE 571                        3261  32  0
+NJ 27                            2249  37  0
+ROUTE 535                        1697  51  0
+RT 1                             1666  42  0
+ROUTE 533                        1655  17  0
+ALEXANDER RD                     1506  14  0
+MERCER COUNTY 638                1396  21  0
+US 206                           1327  28  0
+ROUTE 526                         629  13  0
+ALEXANDER ROAD                    479   6  0
+CR 571                            468   6  0
+NASSAU PARK BLVD                  449   5  0
+UNIVERSITY PLACE                  416   6  0
+RT 27                             400  16  0
+WITHERSPOON ST                    366   9  0
+MERCER COUNTY 615                 314   6  0
+NASSAU PARK RETAIL CENTER         306   2  0
+CR 533                            278   2  0
+240 NASSAU PARK BLVD              271   5  0
+PRINCETON JUNCTION TRAIN STATION  269   1  0
+101 NASSAU PARK BLVD              264   0  0
+MERCER COUNTY 629                 249   8  0
+NJ 64                             250   5  0
+301 NASSAU PARK BLVD              241   0  0
+MERCER COUNTY 604                 221   7  0
+CR 535                            193   5  0
+500 NASSAU PARK BLVD              194   0  0
+ROUTE 583                         191   0  0
+MEADOW ROAD                       181   5  0
+
+---------- Cell.Phone.In.Use.Flag ----------
+                                    N  Y V3
+US 1                             9709 27  0
+ROUTE 571                        3279 14  0
+NJ 27                            2280  6  0
+ROUTE 535                        1737 11  0
+RT 1                             1704  4  0
+ROUTE 533                        1660 12  0
+ALEXANDER RD                     1509 11  0
+MERCER COUNTY 638                1413  4  0
+US 206                           1352  3  0
+ROUTE 526                         635  7  0
+ALEXANDER ROAD                    480  5  0
+CR 571                            474  0  0
+NASSAU PARK BLVD                  452  2  0
+UNIVERSITY PLACE                  421  1  0
+RT 27                             414  2  0
+WITHERSPOON ST                    374  1  0
+MERCER COUNTY 615                 320  0  0
+NASSAU PARK RETAIL CENTER         308  0  0
+CR 533                            280  0  0
+240 NASSAU PARK BLVD              272  4  0
+PRINCETON JUNCTION TRAIN STATION  269  1  0
+101 NASSAU PARK BLVD              264  0  0
+MERCER COUNTY 629                 255  2  0
+NJ 64                             253  2  0
+301 NASSAU PARK BLVD              237  4  0
+MERCER COUNTY 604                 225  3  0
+CR 535                            198  0  0
+500 NASSAU PARK BLVD              194  0  0
+ROUTE 583                         191  0  0
+MEADOW ROAD                       186  0  0
+
+---------- Crash.Day.Of.Week ----------
+                                    F    M   S  SA   TH   TU    W
+US 1                             1724 1369 774 980 1524 1686 1679
+ROUTE 571                         561  538 228 293  553  519  601
+NJ 27                             420  295 184 305  395  338  349
+ROUTE 535                         232  264  86 132  307  352  375
+RT 1                              284  272 151 224  265  244  268
+ROUTE 533                         269  246 149 240  244  295  229
+ALEXANDER RD                      283  234  79 152  231  288  253
+MERCER COUNTY 638                 276  188  76 133  244  231  269
+US 206                            229  193 116 115  216  232  254
+ROUTE 526                         104   82  55  73   85  132  111
+ALEXANDER ROAD                     93   68  27  29  113   77   78
+CR 571                             94   46  37  55   84   77   81
+NASSAU PARK BLVD                   81   75  78  78   51   58   33
+UNIVERSITY PLACE                   52   64  66  44   79   63   54
+RT 27                              97   39  40  52   74   49   65
+WITHERSPOON ST                     30   56  41  54   68   65   61
+MERCER COUNTY 615                  62   44  19  32   64   48   51
+NASSAU PARK RETAIL CENTER          42   38  46  62   38   33   49
+CR 533                             53   38  25  41   36   35   52
+240 NASSAU PARK BLVD               28   42  53  55   34   28   36
+PRINCETON JUNCTION TRAIN STATION   41   36  12  22   59   48   52
+101 NASSAU PARK BLVD               16   27  64  62   28   32   35
+MERCER COUNTY 629                  45   37  23  38   34   41   39
+NJ 64                              39   26  22  13   48   56   51
+301 NASSAU PARK BLVD               44   32  33  56   26   24   26
+MERCER COUNTY 604                  29   46  11  17   48   51   26
+CR 535                             31   44  11  12   31   30   39
+500 NASSAU PARK BLVD               40   28  27  22   28   29   20
+ROUTE 583                          33   28  18  14   35   33   30
+MEADOW ROAD                        30   27  21  24   24   37   23
+
+---------- Crash.Weekend ----------
+                                 FALSE TRUE
+US 1                              8756  980
+ROUTE 571                         3000  293
+NJ 27                             1981  305
+ROUTE 535                         1616  132
+RT 1                              1484  224
+ROUTE 533                         1432  240
+ALEXANDER RD                      1368  152
+MERCER COUNTY 638                 1284  133
+US 206                            1240  115
+ROUTE 526                          569   73
+ALEXANDER ROAD                     456   29
+CR 571                             419   55
+NASSAU PARK BLVD                   376   78
+UNIVERSITY PLACE                   378   44
+RT 27                              364   52
+WITHERSPOON ST                     321   54
+MERCER COUNTY 615                  288   32
+NASSAU PARK RETAIL CENTER          246   62
+CR 533                             239   41
+240 NASSAU PARK BLVD               221   55
+PRINCETON JUNCTION TRAIN STATION   248   22
+101 NASSAU PARK BLVD               202   62
+MERCER COUNTY 629                  219   38
+NJ 64                              242   13
+301 NASSAU PARK BLVD               185   56
+MERCER COUNTY 604                  211   17
+CR 535                             186   12
+500 NASSAU PARK BLVD               172   22
+ROUTE 583                          177   14
+MEADOW ROAD                        162   24
+
+---------- Crash.Weekday ----------
+                                 FALSE TRUE
+US 1                              6526 3210
+ROUTE 571                         2221 1072
+NJ 27                             1553  733
+ROUTE 535                         1089  659
+RT 1                              1199  509
+ROUTE 533                         1133  539
+ALEXANDER RD                      1001  519
+MERCER COUNTY 638                  942  475
+US 206                             907  448
+ROUTE 526                          425  217
+ALEXANDER ROAD                     295  190
+CR 571                             313  161
+NASSAU PARK BLVD                   345  109
+UNIVERSITY PLACE                   280  142
+RT 27                              293  123
+WITHERSPOON ST                     242  133
+MERCER COUNTY 615                  208  112
+NASSAU PARK RETAIL CENTER          237   71
+CR 533                             209   71
+240 NASSAU PARK BLVD               214   62
+PRINCETON JUNCTION TRAIN STATION   163  107
+101 NASSAU PARK BLVD               204   60
+MERCER COUNTY 629                  182   75
+NJ 64                              151  104
+301 NASSAU PARK BLVD               191   50
+MERCER COUNTY 604                  129   99
+CR 535                             137   61
+500 NASSAU PARK BLVD               137   57
+ROUTE 583                          123   68
+MEADOW ROAD                        125   61
