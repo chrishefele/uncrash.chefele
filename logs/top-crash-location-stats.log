@@ -1,5 +1,7 @@
 
+
 -----MEAN STATS PER LOCATION---------
+
                                  Driver.Age Total.Injured Total.Killed
 US 1                               39.33984   0.334839770 0.0008216927
 ROUTE 571                          39.88765   0.338597024 0.0006073489
@@ -31,6 +33,26 @@ CR 535                             35.72821   0.368686869 0.0000000000
 500 NASSAU PARK BLVD               39.71963   0.005154639 0.0000000000
 ROUTE 583                          43.76744   0.293193717 0.0000000000
 MEADOW ROAD                        37.28415   0.338709677 0.0000000000
+RT 206                             41.17614   0.302702703 0.0000000000
+CR 638                             37.62573   0.386363636 0.0000000000
+3495 US ROUTE 1                    43.97101   0.030303030 0.0000000000
+VILLAGE RD W.                      40.00000   0.343750000 0.0062500000
+S HARRISON ST                      44.01316   0.314465409 0.0000000000
+N POST RD                          45.01504   0.216783217 0.0139860140
+PRINCETON JCT TRAIN STATION        42.63380   0.079136691 0.0000000000
+MCCLAIN AVE                        41.15556   0.101449275 0.0000000000
+HARRISON ST                        47.16794   0.562043796 0.0000000000
+HARRISON STREET                    43.84091   0.562962963 0.0000000000
+WITHERSPOON STREET                 43.28947   0.296296296 0.0000000000
+HAMILTON AVE                       46.58333   0.291044776 0.0000000000
+WIGGINS STREET                     43.55000   0.231343284 0.0000000000
+CANAL POINTE BLVD                  41.61240   0.317829457 0.0000000000
+ELM RD                             42.14407   0.214876033 0.0000000000
+MERCER STREET                      43.87129   0.208333333 0.0000000000
+CR 526                             36.56522   0.384615385 0.0000000000
+PROSPECT AVE                       46.34444   0.370689655 0.0000000000
+3535 US ROUTE 1                    44.77632   0.052631579 0.0000000000
+MERCER ST                          40.78431   0.456140351 0.0000000000
                                  Total.Vehicles.Involve Crash.Hour
 US 1                                           2.224836   13.36763
 ROUTE 571                                      2.083510   13.26875
@@ -62,6 +84,27 @@ CR 535                                         1.979798   13.60606
 500 NASSAU PARK BLVD                           1.989691   14.31250
 ROUTE 583                                      1.963351   12.04969
 MEADOW ROAD                                    1.817204   15.10383
+RT 206                                         2.091892   13.34054
+CR 638                                         2.056818   13.18182
+3495 US ROUTE 1                                1.993939   13.69427
+VILLAGE RD W.                                  1.812500   14.18125
+S HARRISON ST                                  2.044025   13.10417
+N POST RD                                      1.811189   13.02857
+PRINCETON JCT TRAIN STATION                    2.035971   15.82014
+MCCLAIN AVE                                    2.057971   14.92029
+HARRISON ST                                    2.226277   13.31579
+HARRISON STREET                                2.303704   13.60000
+WITHERSPOON STREET                             1.977778   14.50370
+HAMILTON AVE                                   2.014925   13.57692
+WIGGINS STREET                                 1.970149   13.29231
+CANAL POINTE BLVD                              1.945736   14.40625
+ELM RD                                         2.190083   11.32432
+MERCER STREET                                  2.116667   12.91964
+CR 526                                         2.076923   14.52991
+PROSPECT AVE                                   1.931034   12.13158
+3535 US ROUTE 1                                1.982456   13.39216
+MERCER ST                                      2.263158   13.47706
+
 
 -----CATEGORY COUNTS PER LOCATION---------
 
@@ -97,6 +140,26 @@ CR 535                             1   88  109  0  0
 500 NASSAU PARK BLVD              85   78   31  0  0
 ROUTE 583                         16   91   84  0  0
 MEADOW ROAD                        4   82  100  0  0
+RT 206                             6   79  100  0  0
+CR 638                             5   81   90  0  0
+3495 US ROUTE 1                   26   77   62  0  0
+VILLAGE RD W.                      8   71   81  0  0
+S HARRISON ST                      7   72   80  0  0
+N POST RD                         11   72   60  0  0
+PRINCETON JCT TRAIN STATION       68   25   46  0  0
+MCCLAIN AVE                        2   63   73  0  0
+HARRISON ST                        4   67   66  0  0
+HARRISON STREET                    2   64   69  0  0
+WITHERSPOON STREET                21   50   64  0  0
+HAMILTON AVE                      15   62   57  0  0
+WIGGINS STREET                    11   72   51  0  0
+CANAL POINTE BLVD                  0   71   58  0  0
+ELM RD                             2   59   60  0  0
+MERCER STREET                     19   50   51  0  0
+CR 526                             0   48   69  0  0
+PROSPECT AVE                      25   39   52  0  0
+3535 US ROUTE 1                   38   44   32  0  0
+MERCER ST                         11   53   50  0  0
 
 ---------- Alcohol.Involved ----------
                                     N   Y V3
@@ -130,6 +193,26 @@ CR 535                            193   5  0
 500 NASSAU PARK BLVD              194   0  0
 ROUTE 583                         191   0  0
 MEADOW ROAD                       181   5  0
+RT 206                            184   1  0
+CR 638                            173   3  0
+3495 US ROUTE 1                   165   0  0
+VILLAGE RD W.                     156   4  0
+S HARRISON ST                     159   0  0
+N POST RD                         140   3  0
+PRINCETON JCT TRAIN STATION       139   0  0
+MCCLAIN AVE                       138   0  0
+HARRISON ST                       137   0  0
+HARRISON STREET                   135   0  0
+WITHERSPOON STREET                131   4  0
+HAMILTON AVE                      129   5  0
+WIGGINS STREET                    132   2  0
+CANAL POINTE BLVD                 128   1  0
+ELM RD                            121   0  0
+MERCER STREET                     120   0  0
+CR 526                            116   1  0
+PROSPECT AVE                      116   0  0
+3535 US ROUTE 1                   114   0  0
+MERCER ST                         114   0  0
 
 ---------- Cell.Phone.In.Use.Flag ----------
                                     N  Y V3
@@ -163,6 +246,26 @@ CR 535                            198  0  0
 500 NASSAU PARK BLVD              194  0  0
 ROUTE 583                         191  0  0
 MEADOW ROAD                       186  0  0
+RT 206                            185  0  0
+CR 638                            176  0  0
+3495 US ROUTE 1                   163  2  0
+VILLAGE RD W.                     160  0  0
+S HARRISON ST                     157  2  0
+N POST RD                         143  0  0
+PRINCETON JCT TRAIN STATION       139  0  0
+MCCLAIN AVE                       138  0  0
+HARRISON ST                       137  0  0
+HARRISON STREET                   131  4  0
+WITHERSPOON STREET                135  0  0
+HAMILTON AVE                      134  0  0
+WIGGINS STREET                    134  0  0
+CANAL POINTE BLVD                 129  0  0
+ELM RD                            119  2  0
+MERCER STREET                     120  0  0
+CR 526                            117  0  0
+PROSPECT AVE                      116  0  0
+3535 US ROUTE 1                   114  0  0
+MERCER ST                         114  0  0
 
 ---------- Crash.Day.Of.Week ----------
                                     F    M   S  SA   TH   TU    W
@@ -196,6 +299,26 @@ CR 535                             31   44  11  12   31   30   39
 500 NASSAU PARK BLVD               40   28  27  22   28   29   20
 ROUTE 583                          33   28  18  14   35   33   30
 MEADOW ROAD                        30   27  21  24   24   37   23
+RT 206                             36   30  23  15   27   31   23
+CR 638                             36   21   9  20   25   34   31
+3495 US ROUTE 1                    30   22  16  29   16   28   24
+VILLAGE RD W.                      27   25  11  19   23   25   30
+S HARRISON ST                      37   24  12  18   22   21   25
+N POST RD                          27   19  11   9   17   27   33
+PRINCETON JCT TRAIN STATION        26   24   8   6   26   16   33
+MCCLAIN AVE                        22   21  18  26   20   17   14
+HARRISON ST                        14   27   6   6   23   31   30
+HARRISON STREET                    19   12  13  13   32   22   24
+WITHERSPOON STREET                 20   18  16  13   23   18   27
+HAMILTON AVE                       23   24   9  12   26   22   18
+WIGGINS STREET                     33   22  14   8   10   24   23
+CANAL POINTE BLVD                  28   18  15  10   15   22   21
+ELM RD                             19   14   9   4   22   28   25
+MERCER STREET                      18   16   8  14   13   27   24
+CR 526                             15   19  13  15   18   19   18
+PROSPECT AVE                       15   11   7   9   33   19   22
+3535 US ROUTE 1                    20    8  18  19   16   10   23
+MERCER ST                          17   25   5   6   28   26    7
 
 ---------- Crash.Weekend ----------
                                  FALSE TRUE
@@ -229,6 +352,26 @@ CR 535                             186   12
 500 NASSAU PARK BLVD               172   22
 ROUTE 583                          177   14
 MEADOW ROAD                        162   24
+RT 206                             170   15
+CR 638                             156   20
+3495 US ROUTE 1                    136   29
+VILLAGE RD W.                      141   19
+S HARRISON ST                      141   18
+N POST RD                          134    9
+PRINCETON JCT TRAIN STATION        133    6
+MCCLAIN AVE                        112   26
+HARRISON ST                        131    6
+HARRISON STREET                    122   13
+WITHERSPOON STREET                 122   13
+HAMILTON AVE                       122   12
+WIGGINS STREET                     126    8
+CANAL POINTE BLVD                  119   10
+ELM RD                             117    4
+MERCER STREET                      106   14
+CR 526                             102   15
+PROSPECT AVE                       107    9
+3535 US ROUTE 1                     95   19
+MERCER ST                          108    6
 
 ---------- Crash.Weekday ----------
                                  FALSE TRUE
@@ -262,3 +405,23 @@ CR 535                             137   61
 500 NASSAU PARK BLVD               137   57
 ROUTE 583                          123   68
 MEADOW ROAD                        125   61
+RT 206                             127   58
+CR 638                             117   59
+3495 US ROUTE 1                    121   44
+VILLAGE RD W.                      112   48
+S HARRISON ST                      116   43
+N POST RD                           99   44
+PRINCETON JCT TRAIN STATION         97   42
+MCCLAIN AVE                        101   37
+HARRISON ST                         83   54
+HARRISON STREET                     81   54
+WITHERSPOON STREET                  94   41
+HAMILTON AVE                        86   48
+WIGGINS STREET                     100   34
+CANAL POINTE BLVD                   92   37
+ELM RD                              71   50
+MERCER STREET                       80   40
+CR 526                              80   37
+PROSPECT AVE                        64   52
+3535 US ROUTE 1                     88   26
+MERCER ST                           60   54

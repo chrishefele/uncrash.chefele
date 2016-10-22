@@ -1,14 +1,15 @@
 
-
-# WORK IN PROGRESS
-
-# Script to analyze differenes in variable distributions by location.
-# This script picks the top N accident locations (either by 
-# location name, or by GPS coordinates) and then prints out the
-# mean of several variables (driver age, number killed, etc.) 
-# and the distribution of categorical variable (e.g. male/female).
+# top-crash-latlong-stats.R
 #
-# TODO: Plots, etc.
+# This script calculates various statistics about top N crash locations
+# i.e. locations that seem to be crash "hotspots".  
+# The script bundles all crashes with identical latitude & longitude,
+# then calculates various statistics about the set of crashes
+# at each of those locations (e.g. Mean vehicles involved, percent male drivers).
+# This info is then written to a .csv file so it can be imported 
+# into a GIS tool & plotted on a map. 
+#
+# Chris Hefele, 10/22/2016
 
 TOP.N.LATLONG      <- 100
 CRASHES.LOCAL.FILE <- "../data/crashes-local.Rda"
@@ -93,7 +94,7 @@ category.features$init.feature <- NULL
 latlong.counts <- as.data.frame(table(crashes$Latitude, crashes$Longitude))
 names(latlong.counts) <- c("Latitude", "Longitude", "Crash.Count")
 latlong.counts <- latlong.counts[ order(latlong.counts$Crash.Count, decreasing=TRUE) ,]
-latlong.counts$Crash.Count.Rank <- rank(latlong.counts$Crash.Count)
+latlong.counts$Crash.Count.Rank <- 1:length(latlong.counts$Crash.Count)
 # hack: make rownames a lat&long string to index[] data by latlong 
 latlong.counts$LatLong <- paste(latlong.counts$Latitude, latlong.counts$Longitude)
 rownames(latlong.counts) <- latlong.counts$LatLong
