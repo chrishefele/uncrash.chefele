@@ -93,6 +93,7 @@ category.features$init.feature <- NULL
 latlong.counts <- as.data.frame(table(crashes$Latitude, crashes$Longitude))
 names(latlong.counts) <- c("Latitude", "Longitude", "Crash.Count")
 latlong.counts <- latlong.counts[ order(latlong.counts$Crash.Count, decreasing=TRUE) ,]
+latlong.counts$Crash.Count.Rank <- rank(latlong.counts$Crash.Count)
 # hack: make rownames a lat&long string to index[] data by latlong 
 latlong.counts$LatLong <- paste(latlong.counts$Latitude, latlong.counts$Longitude)
 rownames(latlong.counts) <- latlong.counts$LatLong
