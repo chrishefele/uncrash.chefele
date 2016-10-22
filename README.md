@@ -20,6 +20,8 @@ The visualizations! (.PDF & .PNG files)
 * treemap-crashes-local.R - Treemap of names of crash locations in the Princeton area
 * US1-visualization.R - Plots accident density vs position on US 1 in the Princeton area
 * get-osm-intersections.py - Parse an Open Street Map file of the Princeton area & determine which streets intersect with Route 1 (not currently used, but perhaps useful in the future).  
+* top-crash-latlong-stats.R - Calculates various statistics & demographics about the top crash latitude/longitude pairs and writes a .csv for importing into a GIS tool. 
+* top-crash-location-stats.R - Calculates various statistics & demographics about the top crash locations (by street name) & prints out tables.
 
 ##./data: 
 * Stores the reformatted, intermediate data used for the visualizations (in .csv and .Rda format). Also includes misc other working data.
