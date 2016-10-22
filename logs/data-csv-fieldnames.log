@@ -1,0 +1,87 @@
+
+filename: ../data/crashes-local.csv
+  1: Crash.Date
+  2: Crash.Day.Of.Week
+  3: Crash.Time
+  4: Driver.DOB
+  5: Driver.Sex
+  6: County.Name
+  7: Municipality.Name
+  8: Total.Killed
+  9: Total.Injured
+ 10: Total.Vehicles.Involve
+ 11: Alcohol.Involved
+ 12: Alcohol.Test.Given
+ 13: Alcohol.Test.Results
+ 14: Cell.Phone.In.Use.Flag
+ 15: Crash.Location
+ 16: Latitude
+ 17: Longitude
+ 18: Year
+ 19: Driver.Age
+ 20: Crash.Hour
+ 21: Crash.Weekday
+ 22: Crash.Weekend
+
+
+filename: ../data/top-crash-latlong-stats.csv
+  1: Driver.Age.Mean
+  2: Driver.Age.Median
+  3: Driver.Age.Sum
+  4: Total.Injured.Mean
+  5: Total.Injured.Median
+  6: Total.Injured.Sum
+  7: Total.Killed.Mean
+  8: Total.Killed.Median
+  9: Total.Killed.Sum
+ 10: Total.Vehicles.Involve.Mean
+ 11: Total.Vehicles.Involve.Median
+ 12: Total.Vehicles.Involve.Sum
+ 13: Crash.Hour.Mean
+ 14: Crash.Hour.Median
+ 15: Crash.Hour.Sum
+ 16: Driver.Sex.M
+ 17: Driver.Sex.F
+ 18: Driver.Sex.M.pct
+ 19: Driver.Sex.F.pct
+ 20: Alcohol.Involved.Y
+ 21: Alcohol.Involved.N
+ 22: Alcohol.Involved.Y.pct
+ 23: Alcohol.Involved.N.pct
+ 24: Cell.Phone.In.Use.Flag.Y
+ 25: Cell.Phone.In.Use.Flag.N
+ 26: Cell.Phone.In.Use.Flag.Y.pct
+ 27: Cell.Phone.In.Use.Flag.N.pct
+ 28: Crash.Day.Of.Week.M
+ 29: Crash.Day.Of.Week.TU
+ 30: Crash.Day.Of.Week.W
+ 31: Crash.Day.Of.Week.TH
+ 32: Crash.Day.Of.Week.F
+ 33: Crash.Day.Of.Week.SA
+ 34: Crash.Day.Of.Week.S
+ 35: Crash.Day.Of.Week.M.pct
+ 36: Crash.Day.Of.Week.TU.pct
+ 37: Crash.Day.Of.Week.W.pct
+ 38: Crash.Day.Of.Week.TH.pct
+ 39: Crash.Day.Of.Week.F.pct
+ 40: Crash.Day.Of.Week.SA.pct
+ 41: Crash.Day.Of.Week.S.pct
+ 42: Crash.Weekend.TRUE
+ 43: Crash.Weekend.FALSE
+ 44: Crash.Weekend.TRUE.pct
+ 45: Crash.Weekend.FALSE.pct
+ 46: Crash.Weekday.TRUE
+ 47: Crash.Weekday.FALSE
+ 48: Crash.Weekday.TRUE.pct
+ 49: Crash.Weekday.FALSE.pct
+ 50: Latitude
+ 51: Longitude
+ 52: Crash.Count
+ 53: Crash.Count.Rank
+
+
+filename: ../data/US1-intersections.csv
+  1: Latitude
+  2:  Longitude
+  3:  Street
+
