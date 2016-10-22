@@ -28,7 +28,7 @@ Various screenshots from a GIS tool that created visualizations using the .csv f
 
 ##./data: 
 
-* Stores the reformatted, intermediate data used for the visualizations (in .csv and .Rda format). Also includes misc other working data. Specifically: 
+Stores the reformatted, intermediate data used for the visualizations (in .csv and .Rda format). Also includes misc other working data. Specifically: 
 
 * crashes-local.csv - Crash information for Princeton, Princeton Township & West Windsor. Contains just those crashes with GPS latitude/longitude information (about 20% of all crashes). This is used to import to a GIS tool for visualization. 
 * crashes-local.Rda - Same as above, but with all crashes (even those without GPS location). In ".Rda" format for importing in R.
