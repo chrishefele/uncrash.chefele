@@ -8,12 +8,15 @@ If you're just interested in the visualizations, look in the ./plots directory!
 The code used to create these plots/visualizations are (mostly) in R. Also, this repository does not include the original data; the scripts here assume that they can access the original "Uncrash" /data directory using the path "../../uncrash/data"
 
 ##./plots:
+
 The visualizations! (.PDF & .PNG files)
 
 ##./screenshots: 
-* Various screenshots from a GIS tool that created visualizations using the .csv files written by make-crashes-files.R
+
+Various screenshots from a GIS tool that created visualizations using the .csv files written by make-crashes-files.R
 
 ##./src:
+
 * make-crashes-files.R - Reformats the data to suit my personal analysis needs. Needs to be run first.
 * analyze-crashes.R - Various exploratory data analysis plots, looks for possible variable correlations
 * map-NJ-from-crashes.R - Plots one point per fatal accident; creates a NJ map
@@ -24,6 +27,7 @@ The visualizations! (.PDF & .PNG files)
 * top-crash-location-stats.R - Calculates various statistics & demographics about the top crash locations (by street name) & prints out tables.
 
 ##./data: 
+
 * Stores the reformatted, intermediate data used for the visualizations (in .csv and .Rda format). Also includes misc other working data. Specifically: 
 
 * crashes-local.csv - Crash information for Princeton, Princeton Township & West Windsor. Contains just those crashes with GPS latitude/longitude information (about 20% of all crashes). This is used to import to a GIS tool for visualization. 
