@@ -24,6 +24,12 @@ The visualizations! (.PDF & .PNG files)
 * top-crash-location-stats.R - Calculates various statistics & demographics about the top crash locations (by street name) & prints out tables.
 
 ##./data: 
-* Stores the reformatted, intermediate data used for the visualizations (in .csv and .Rda format). Also includes misc other working data.
+* Stores the reformatted, intermediate data used for the visualizations (in .csv and .Rda format). Also includes misc other working data. Specifically: 
 
+* crashes-local.csv - Crash information for Princeton, Princeton Township & West Windsor. Contains just those crashes with GPS latitude/longitude information (about 20% of all crashes). This is used to import to a GIS tool for visualization. 
+* crashes-local.Rda - Same as above, but with all crashes (even those without GPS location). In ".Rda" format for importing in R.
+* crashes-NJ.Rda - Same as above, but for all of NJ
+* map-US1-pton-area.osm - Open Street Map (.osm) formatted data for a map of the Princeton/WW area. 
+* top-crash-latlong-stats.csv - Mean/distributions of crash data for the top latitude/longitude pairs that had mutiple crashes. Used to import into a GIS tool for visualization. 
+* US1-intersections.csv - Latitude & longitude of major cross-streets on Route 1. Used by US1-visualization.R
 
