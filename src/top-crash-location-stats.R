@@ -37,6 +37,8 @@ crashes$Latitude        <- round(crashes$Latitude,  4)
 crashes$Longitude       <- round(crashes$Longitude, 4)
 crashes$LatLong         <- paste(crashes$Latitude, crashes$Longitude)
 
+# crashes$Crash.Location <- crashes$LatLong # TODO REMOVE AFTER TESTS ***************************
+
 # Find the locations with the highest crash count
 
 tbl <- as.data.frame(table(crashes$Crash.Location)) 
