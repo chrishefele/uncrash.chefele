@@ -1,0 +1,15 @@
+
+UNCRASH
+
+Uncrash web site:       https://uncrash.shinyapps.io/trendline/
+Slack:                  https://codeforprinceton.slack.com/messages/uncrash/
+Github Uncrash repo:    https://github.com/codeforprinceton/uncrash
+
+CODE FOR PRINCETON
+
+Code For Princeton:  http://codeforprinceton.org/
+Github CodeForPrinceton:  https://github.com/codeforprinceton
+Meetup:   http://www.meetup.com/codeforprinceton/
+Twitter:  https://twitter.com/codeprinceton
+Facebook: https://www.facebook.com/codeforprinceton
+
