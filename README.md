@@ -5,7 +5,7 @@ The data is in in the [Uncrash github repository] (https://github.com/codeforpri
 
 The "Uncrash" team won 1st place in the "Data & Art Hackathon" at the West Windsor Arts Center in 10/23/2016. Some of the visualizations in this repo were used as part of the team's prize-winning entry.
 
-If you're just interested in the visualizations, look in the ./plots directory!
+If you're just interested in the visualizations, look in the ./plots ./screenshots and ./presentation directories!
 
 The code used to create these plots/visualizations are (mostly) in R. Also, this repository does not include the original data; the scripts here assume that they can access the original "Uncrash" /data directory using the path "../../uncrash/data"
 
@@ -16,6 +16,10 @@ The visualizations! (.PDF & .PNG files)
 ##./screenshots: 
 
 Various screenshots from a GIS tool (carto.com) that created visualizations using the .csv files written by make-crashes-files.R
+
+##./presentation:
+
+The best plots/images/screenshots, used for the "Uncrash" team presentation at the Oct 2016 Arts & Data Hackathon. 
 
 ##./src:
 
