@@ -3,6 +3,8 @@
 This work creates visualizations using the data compiled by the "Uncrash" project run by Code For Princeton.
 The data is in in the [Uncrash github repository] (https://github.com/codeforprinceton/uncrash)
 
+The "Uncrash" team won 1st place in the "Data & Art Hackathon" at the West Windsor Arts Center in 10/23/2016. Some of the visualizations in this repo were used as part of the team's prize-winning entry.
+
 If you're just interested in the visualizations, look in the ./plots directory!
 
 The code used to create these plots/visualizations are (mostly) in R. Also, this repository does not include the original data; the scripts here assume that they can access the original "Uncrash" /data directory using the path "../../uncrash/data"
@@ -13,7 +15,7 @@ The visualizations! (.PDF & .PNG files)
 
 ##./screenshots: 
 
-Various screenshots from a GIS tool that created visualizations using the .csv files written by make-crashes-files.R
+Various screenshots from a GIS tool (carto.com) that created visualizations using the .csv files written by make-crashes-files.R
 
 ##./src:
 
@@ -36,4 +38,5 @@ Stores the reformatted, intermediate data used for the visualizations (in .csv a
 * map-US1-pton-area.osm - Open Street Map (.osm) formatted data for a map of the Princeton/WW area. 
 * top-crash-latlong-stats.csv - Mean/distributions of crash data for the top latitude/longitude pairs that had mutiple crashes. Used to import into a GIS tool for visualization. 
 * US1-intersections.csv - Latitude & longitude of major cross-streets on Route 1. Used by US1-visualization.R
+
 
