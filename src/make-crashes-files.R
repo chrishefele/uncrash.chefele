@@ -42,6 +42,7 @@ YEARS         <- 2001:2014
 local.towns <- c( 
      "PRINCETON" 
     ,"PRINCETON BORO"
+    ,"PRINCETON TWP"
     ,"WEST WINDSOR TWP"
 )
 
@@ -63,6 +64,7 @@ col.select <- c(
     ,"Alcohol.Test.Results"           
     ,"Cell.Phone.In.Use.Flag"        
     ,"Crash.Location"                
+    ,"Cross.Street.Name"                
     ,"Latitude"                      
     ,"Longitude"                      
 )
@@ -118,6 +120,7 @@ df.years$Crash.Weekend <- df.years$Crash.Day.Of.Week %in% WEEKEND.DAYS
 for(trimws.col in c( "County.Name"
                     ,"Municipality.Name"
                     ,"Crash.Day.Of.Week"              
+                    ,"Cross.Street.Name"              
                     ,"Crash.Location")  ) {
     df.years[,trimws.col] <- trimws(df.years[,trimws.col])
 }
