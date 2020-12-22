@@ -1,4 +1,4 @@
-# uncrash
+# Project "Uncrash"
 
 This work creates visualizations using the data compiled by the "Uncrash" project run by Code For Princeton.
 The data is in in the [Uncrash github repository] (https://github.com/codeforprinceton/uncrash)
