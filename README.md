@@ -9,19 +9,19 @@ If you're just interested in the visualizations, look in the ./plots ./screensho
 
 The code used to create these plots/visualizations are (mostly) in R. Also, this repository does not include the original data; the scripts here assume that they can access the original "Uncrash" /data directory using the path "../../uncrash/data"
 
-##/plots:
+## ./plots:
 
 The visualizations! (.PDF & .PNG files)
 
-##./screenshots: 
+## ./screenshots: 
 
 Various screenshots from a GIS tool (carto.com) that created visualizations using the .csv files written by make-crashes-files.R
 
-##./presentation:
+## ./presentation:
 
 The best plots/images/screenshots, used for the "Uncrash" team presentation at the Oct 2016 Arts & Data Hackathon. 
 
-##./src:
+## ./src:
 
 * make-crashes-files.R - Reformats the data to suit my personal analysis needs. Needs to be run first.
 * analyze-crashes.R - Various exploratory data analysis plots, looks for possible variable correlations
@@ -32,7 +32,7 @@ The best plots/images/screenshots, used for the "Uncrash" team presentation at t
 * top-crash-latlong-stats.R - Calculates various statistics & demographics about the top crash latitude/longitude pairs and writes a .csv for importing into a GIS tool. 
 * top-crash-location-stats.R - Calculates various statistics & demographics about the top crash locations (by street name) & prints out tables.
 
-##./data: 
+## ./data: 
 
 Stores the reformatted, intermediate data used for the visualizations (in .csv and .Rda format). Also includes misc other working data. Specifically: 
 
