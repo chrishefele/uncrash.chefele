@@ -9,7 +9,7 @@ If you're just interested in the visualizations, look in the ./plots ./screensho
 
 The code used to create these plots/visualizations are (mostly) in R. Also, this repository does not include the original data; the scripts here assume that they can access the original "Uncrash" /data directory using the path "../../uncrash/data"
 
-##./plots:
+##/plots:
 
 The visualizations! (.PDF & .PNG files)
 
